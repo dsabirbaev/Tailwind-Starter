@@ -4,6 +4,7 @@
   "description": "Tailwind starter",
   "main": "index.js",
   "scripts": {
+    "build": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mr.D",
